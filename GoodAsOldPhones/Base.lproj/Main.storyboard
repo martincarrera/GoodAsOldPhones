@@ -44,7 +44,7 @@
             </objects>
             <point key="canvasLocation" x="898.5" y="444.5"/>
         </scene>
-        <!--Products Table View Controller-->
+        <!--GOOD AS OLD PHONES-->
         <scene sceneID="tbn-2Y-yj5">
             <objects>
                 <tableViewController id="DsN-ok-V0f" customClass="MCProductsTableViewController" customModule="GoodAsOldPhones" customModuleProvider="target" sceneMemberID="viewController">
@@ -70,7 +70,13 @@
                             <outlet property="delegate" destination="DsN-ok-V0f" id="DXt-gV-OaG"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="7cX-Ua-IcZ"/>
+                    <navigationItem key="navigationItem" title="GOOD AS OLD PHONES" id="7cX-Ua-IcZ">
+                        <barButtonItem key="rightBarButtonItem" title="Contact" id="oqB-Fg-Wgy">
+                            <connections>
+                                <segue destination="AS3-GR-fa8" kind="push" identifier="ShowContact" id="F4H-jN-Qtw"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bwo-8f-lUh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -90,6 +96,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="FLI-Be-3R8"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="scrollView" destination="dlX-q1-Jo4" id="cRm-1q-WPc"/>
@@ -165,7 +172,7 @@
                     </subviews>
                 </scrollView>
             </objects>
-            <point key="canvasLocation" x="-138.5" y="-312.5"/>
+            <point key="canvasLocation" x="393.5" y="-310.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5t9-zo-IuA">
