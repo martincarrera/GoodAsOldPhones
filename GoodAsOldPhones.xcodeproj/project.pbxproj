@@ -14,6 +14,7 @@
 		998BBEB31C89CE780022271C /* MCProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BBEB21C89CE780022271C /* MCProductViewController.swift */; };
 		998BBEB51C89D7AC0022271C /* MCContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BBEB41C89D7AC0022271C /* MCContactViewController.swift */; };
 		998BBEB71C89E06E0022271C /* MCProductsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BBEB61C89E06E0022271C /* MCProductsTableViewController.swift */; };
+		998BBEB91C89FFD00022271C /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BBEB81C89FFD00022271C /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		998BBEB21C89CE780022271C /* MCProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCProductViewController.swift; sourceTree = "<group>"; };
 		998BBEB41C89D7AC0022271C /* MCContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCContactViewController.swift; sourceTree = "<group>"; };
 		998BBEB61C89E06E0022271C /* MCProductsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCProductsTableViewController.swift; sourceTree = "<group>"; };
+		998BBEB81C89FFD00022271C /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				998BBEB21C89CE780022271C /* MCProductViewController.swift */,
 				998BBEB41C89D7AC0022271C /* MCContactViewController.swift */,
 				998BBEB61C89E06E0022271C /* MCProductsTableViewController.swift */,
+				998BBEB81C89FFD00022271C /* Product.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				998BBEB31C89CE780022271C /* MCProductViewController.swift in Sources */,
 				998BBEB71C89E06E0022271C /* MCProductsTableViewController.swift in Sources */,
+				998BBEB91C89FFD00022271C /* Product.swift in Sources */,
 				998BBEB51C89D7AC0022271C /* MCContactViewController.swift in Sources */,
 				998BBEA11C89BE2E0022271C /* AppDelegate.swift in Sources */,
 			);

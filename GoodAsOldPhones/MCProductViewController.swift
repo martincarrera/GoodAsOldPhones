@@ -12,16 +12,15 @@ class MCProductViewController: UIViewController {
 
     @IBOutlet weak var productNameLabel: UILabel!
     @IBOutlet weak var productImageView: UIImageView!
-    var productName: String?
+    var product: Product?
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        productNameLabel.text = productName
-        productImageView.image = UIImage(named: "phone-fullscreen3")
+        productNameLabel.text = product?.name
+        if let i = product?.productImage {
+            productImageView.image = UIImage(named: i)
+        }
     }
 
-    @IBAction func addToCartPressed(sender: AnyObject) {
-        print("Button Tapped")
-    }
 }
