@@ -12,6 +12,7 @@
 		998BBEA81C89BE2E0022271C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 998BBEA71C89BE2E0022271C /* Assets.xcassets */; };
 		998BBEAB1C89BE2E0022271C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 998BBEA91C89BE2E0022271C /* LaunchScreen.storyboard */; };
 		998BBEB31C89CE780022271C /* MCProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BBEB21C89CE780022271C /* MCProductViewController.swift */; };
+		998BBEB51C89D7AC0022271C /* MCContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 998BBEB41C89D7AC0022271C /* MCContactViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		998BBEAA1C89BE2E0022271C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		998BBEAC1C89BE2E0022271C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		998BBEB21C89CE780022271C /* MCProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCProductViewController.swift; sourceTree = "<group>"; };
+		998BBEB41C89D7AC0022271C /* MCContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MCContactViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				998BBEA91C89BE2E0022271C /* LaunchScreen.storyboard */,
 				998BBEAC1C89BE2E0022271C /* Info.plist */,
 				998BBEB21C89CE780022271C /* MCProductViewController.swift */,
+				998BBEB41C89D7AC0022271C /* MCContactViewController.swift */,
 			);
 			path = GoodAsOldPhones;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				998BBEB31C89CE780022271C /* MCProductViewController.swift in Sources */,
+				998BBEB51C89D7AC0022271C /* MCContactViewController.swift in Sources */,
 				998BBEA11C89BE2E0022271C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
